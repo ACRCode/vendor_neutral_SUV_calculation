@@ -2,7 +2,7 @@
 
 DICOM_SUV_calculation_technical_note.pdf: This technical note has not yet been published but lays out the complexities of SUV calculation.
 
-vendor_neutral_suv.py: This is a vendor-neutral SUV calculation function which takes the dicom header object produced by pydicom.read_file() as input. The function outputs SUV if it can be calculated and will otherwise an exception detailing why calculation is not possible will be raised.
+vendor_neutral_suv.py: This is a vendor-neutral SUV calculation function which takes the dicom header object produced by pydicom.read_file() as input. The function outputs SUV if it can be calculated otherwise an exception detailing why calculation is not possible will be raised.
 
 This function is based on QIBA’s vendor-neutral pseudo-code for SUV calculation found here: https://qibawiki.rsna.org/index.php/Standardized_Uptake_Value_(SUV)
 
