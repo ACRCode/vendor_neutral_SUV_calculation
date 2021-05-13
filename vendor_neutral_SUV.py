@@ -2,7 +2,7 @@
 """
 Created on Mon Sep 14 14:38:32 2020
 
-@author: Kendall Schmidt kschmidt2@acr.org
+@author: Kendall Schmidt
 """
 
 import os
